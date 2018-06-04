@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd" version="2.0"> 
+ <tlib-version>1.0</tlib-version>
+ <short-name>csajsp-taglib</short-name> 
+ 
+ <uri>http://something.com/iwnat/this</uri>
+ <!-- java tag -->
+ <tag> 
+ 	<description>Tag that shows error message</description> 
+ 	<name>mytags</name> 
+    <tag-class>testpack.Mytags</tag-class>
+    <body-content>scriptless</body-content> 
+    
+    <attribute>
+    	<name>color</name>
+    	<required>true</required>
+    </attribute>
+    <attribute>
+    	<name>size</name>
+    	<required>false</required>
+    </attribute>
+    
+ </tag> 
+     
+</taglib>
